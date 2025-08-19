@@ -1,10 +1,6 @@
 package cms.user;
 
 public class EditorUser {
-	private final int id;
-	private final String nome;
-	private final String email;
-	private final String password;
 
 	public EditorUser(int id, String nome, String email, String password) {
 		this.id = id;

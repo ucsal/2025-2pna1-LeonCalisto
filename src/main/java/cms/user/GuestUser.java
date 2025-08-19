@@ -1,10 +1,6 @@
 package cms.user;
 
 public class GuestUser {
-	private final int id;
-	private final String nome;
-	private final String email;
-	private final String password;
 
 	public GuestUser(int id, String nome, String email, String password) {
 		this.id = id;
