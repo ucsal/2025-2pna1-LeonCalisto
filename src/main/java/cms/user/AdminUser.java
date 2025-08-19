@@ -1,12 +1,9 @@
 package cms.user;
 
-public class AdminUser {
+public class AdminUser extends User{
 	
 	public AdminUser(int id, String nome, String email, String password) {
-		this.id = id;
-		this.nome = nome;
-		this.email = email;
-		this.password = password;
+		super(id, nome, email, password);
 	}
 
 	public int getId() {
